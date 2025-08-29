@@ -8,7 +8,7 @@ import React from "react";
 
 function App() {
   return (
-    <div className=" text-white min-h-screen">
+    <div className=" text-white min-h-screen  background-color: #242424">
 
    
 
@@ -29,7 +29,7 @@ function App() {
 
 
 
-      <section className="w-full min-h-screen flex flex-col justify-start items-center pt-32">
+      <section className="w-full bg-[#1f1f20] min-h-screen flex flex-col justify-start items-center pt-32">
        
 
 
@@ -44,12 +44,12 @@ function App() {
 
         
         
-        <div className=" bg-white text-black flex justify-center items-center mb-4">
+        <div className=" bg-white text-black w-full flex justify-between items-start mb-4">
           <input type="text"
             placeholder="Enter keyword"
-            className="p-2 w-80  "
+            className="p-2 w-full  "
           />
-          <button  className="bg-blue-600 text-white px-4 py-2 ">
+          <button  className="bg-blue-600 text-white px-4 py-2  ">
             Search
           </button>
           </div>
@@ -70,6 +70,10 @@ function App() {
         <a href="http://telegram.org">Telegram</a>
         
         </button>
+        <button className=" bg-orange-600 inline text-white mr-2 mb-6">
+          <a href="https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2Fsubmit%3Ftitle%3DSFlix%2B%257C%2BWatch%2BHD%2BMovies">
+          Reddit</a>
+        </button>
 </div>
           
 
@@ -77,7 +81,7 @@ function App() {
 
        
         <div className="mb-4">
-          <button className="bg-blue-500 px-6 py-2  hover:scale-110 transition">
+          <button className="bg-blue-500 px-6 py-2  rounded-3xl hover:scale-110 transition">
             View Full Site
           </button>
         </div>
@@ -87,7 +91,7 @@ function App() {
       
 <section className="w-full px-4 md:px-20 py-8 text-white ">
  
-  <h2 className="text-2xl font-bold mb-4 text-center">Watch Movies Online Free</h2>
+  <h2 className="text-2xl text-left font-bold mb-4 ">Watch Movies Online Free</h2>
 
   
   <p className="mb-4">
@@ -105,7 +109,7 @@ function App() {
     links, and the ad-free feature completely for free!
   </p>
 
-  <h2 className="text-xl font-bold mb-3">What is SFlix?</h2>
+  <h2 className="text-xl font-bold text-left mb-3">What is SFlix?</h2>
   <p className="mb-4">
     SFlix is a newly-created site that allows users to watch and download movies 
     and TV shows online in HD quality for free. SFlix’s purpose is to become a free 
@@ -116,7 +120,7 @@ function App() {
     believe, with your support, it can be achieved soon.
   </p>
 
-  <h2 className="text-xl font-bold mb-3">Is SFlix or 123Movies Better for streaming movies and shows?</h2>
+  <h2 className="text-xl text-left font-bold mb-3">Is SFlix or 123Movies Better for streaming movies and shows?</h2>
   <p className="mb-4">
     123Movies is no doubt the most popular free movie site ever. At peak, 123movies 
     welcomed 98 million users a month. To many movie fans, whenever they think of free 
@@ -129,7 +133,7 @@ function App() {
     private information on SFlix as we are free from ads and do not require any registration.
   </p>
 
-  <h2 className="text-xl font-bold mb-3">Is It Illegal to Use SFlix?</h2>
+  <h2 className="text-xl text-left font-bold mb-3">Is It Illegal to Use SFlix?</h2>
   <p className="mb-4">
     We are currently accessible all over the world. SFlix is not technically a legal 
     site, however, using SFlix for free online movie streaming is not illegal. According 
@@ -138,7 +142,7 @@ function App() {
     on downloading videos to watch offline later, use a reliable VPN and proceed at your own risk.
   </p>
 
-  <h2 className="text-xl font-bold mb-3">Is SFlix safe?</h2>
+  <h2 className="text-xl text-left font-bold mb-3">Is SFlix safe?</h2>
   <p className="mb-4">
     SFlix is a new site so it is understandable if our security is questioned. There 
     has not been much feedback about the site’s safety for references, but you should 
@@ -152,7 +156,7 @@ function App() {
     the best movie night you have ever had.
   </p>
 
-  <ul className="list-disc ml-5 mb-4">
+  <ul className="list-disc ml-5 text-left mb-4">
     <li>An enormous collection of movies and TV shows with multiple subtitles.</li>
     <li>HD Resolution (720p). Adjustable.</li>
     <li>Private and safe streaming source.</li>
@@ -172,11 +176,11 @@ function App() {
     movies in HD quality, with subtitles, and free of charge!
   </p>
 
-  <h2 className="text-xl font-bold mb-3">
+  <h2 className="text-xl text-left font-bold mb-3">
     Top 9 Free Movie Streaming Sites</h2>
   <ol className="list-decimal ml-5 mb-4">
-  <li className="mb-4">
-  <span className="font-bold">123Movies:</span>
+  <li className="mb-4 text-left">
+  <span className="font-bold text-left">123Movies:</span>
   <p>
     This is arguably the most popular website for free streaming movies online. With its huge 
     number of movies and shows, the site has reached a peak of 98 million users overall. You can 
@@ -193,7 +197,7 @@ function App() {
 
        
         <div className="mb-8">
-          <button className="bg-blue-500 px-6 py-2 rounded hover:scale-110 transition">
+          <button className="bg-blue-500 px-6 py-2 rounded-4xl hover:scale-110 transition">
             Go to SFlix
           </button>
         </div>
